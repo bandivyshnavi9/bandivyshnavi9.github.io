@@ -1,98 +1,91 @@
 var bio = {
 	"name":"Vyshnavi Bandi ",
-	"role": "Web Developer ",
+	"role": "Full stack Web Developer ",
 	"welcomeMessage": "Hello! Welcome to My Page ",
 	"biopic": "images/vyshnavi.jpg ",
 		"contacts": [{
-		"mobile": "940-395-9208 ", 
+		"mobile": "940-395-9208 ",
 		"email":"bandivyshnavi9@gmail.com ",
 		"emailUrl":"https://mail.google.com/mail/?view=cm&fs=1&to=bandivyshnavi9@gmail.com&su=SUBJECT&body=BODY", 
-		"gitHub": "bandivyshnavi9 ", 
+		"gitHub": "bandivyshnavi9 ",
 		"gitHubUrl":"https://github.com/bandivyshnavi9",
-		"location": "Denton,Tx, USA ",}],
+		"location": "Fairview,PA, USA ",}],
 		"skills": ["Avid Learner ", "Programmer ", "Musicophile"]
 }
 var work = {
 	"jobs" : [
 	{
-	"employer" : "UNT  CS Department",
+	"employer" : "University of North Texas",
 	"title" : "Instuctional Assistant ",
 	"location" :" Denton,Tx, USA ",
-	"dates" : "January 2017 - present",
-	"descritpion": " I am working  with Dr. Keathly for the course CSCE 1040, which is on C/C++.",
-	"Url":"http://computerscience.engineering.unt.edu/"
+	"dates" : "January 2016 - May 2017",
+	"descritpion":["Coordinated with Instructors and developed course curriculum for multiple courses each of class 65 students.","Maintained Professor website","Instructed Computer Science I/II labs of basic programming in C/C++.","Guided students to complete their Assignments and Projects.","Administrated the blackboard by updating the course content and grades on regular basis."]
 	},
 	{
-	"employer" : "UNT  CS Department",
-	"title" : "Instuctional Assistant ",
-	"location" :" Denton,Tx, USA ",
-	"dates" : "August 2016 - December 2016",
-	"descritpion": " I worked  with Dr. Shreshta for the course CSCE 1030, which is on C/C++.",
-	"Url":"http://computerscience.engineering.unt.edu/"
-	},
-	{
-	"employer" : "UNT ITDS Department ",
-	"title" : "Tutor ",
-	"location" :" Denton,Tx, USA ",
-	"dates" : "June 2016- July 2016",
-	"descritpion": "Taught the course BCIS 4670, Continuing Seminar in Computer-based Information Systems which is on c++. ",
-	"Url": "http://www.cob.unt.edu/itds/"
-	},
-	{
-	"employer" : "UNT ITDS Department ",
-	"title" : "Tutor ",
-	"location" :" Denton,Tx, USA ",
-	"dates" : "January 2016 - May 2016",
-	"descritpion": " Taught the course BCIS 4650, Visual Programming of Business Applications which is on XAML and windows appplication development. ",
-	"Url": "http://www.cob.unt.edu/itds/"
+	"employer" : "Efftronics Systems Pvt Ltd",
+	"title" : "Software Developer Intern",
+	"location" :" Vijayawada,AP, INDIA ",
+	"dates" : "December 2014 - June 2015",
+	"descritpion": ["Designed the front-end to pages like Login, Signup, Search, Contact and About, using web technologies like HTML5, CSS3, JavaScript and jQuery.", " Implemented the entire front end using AJAX calls and Implemented MVC design patterns to make calls to the backend explicitly and rendering the data into web view asynchronously."]
 	}
-
 ]
 };
 
 var projects = {
 	"projects": [
+		{
+		"title": "Neighborhood Map",
+		"dates": "Summer 2017",
+		"descritpion": ["Developed a responsive web application built with Knockoutjs MVVM framework and deployed on localhost.","Designed application by using Google Maps API to show the map and the YELP API Endpoint to get JSON data for the user preferred location.","Learned how to generate HTTP cookie and use them in web applications."],
+		"Url":"github.com/bandivyshnavi9/UdacityBasicBlog"
+	},
+	{
+		"title": "Multi User Blog",
+		"dates": "Spring 2017",
+		"descritpion": ["Developed a responsive web application built with Flask framework, GQL to store the data and deployed on google cloud platform.","Designed a custom authentication service for users to login to the system. ","Implemented Knockoutjs filter to display the markers on the map."],
+		"Url":"github.com/bandivyshnavi9/Udacity_Neighborhood_Maps"
+	},
+	{
+		"title": "Build Item Catalog",
+		"dates": "Summer 2017",
+		"descritpion": ["Developed an interactive web application with Flask framework and used SQLAlchemy to be MVC, where user can provide details about a game.","Eliminated the SQL errors by using SQLAlchemy and authenticated issues using third party authentication.","Created a REST endpoint for the application so developers can directly communicate with the website."],
+		"Url":"github.com/bandivyshnavi9/catalog-App"
+	},
 	{
 		"title": "POS Tagging with Hidden Markov Model",
 		"dates": "Fall 2016",
-		"descritpion": "POS tag is assigned to each word in the sentence using hidden markov model. The Viterbi algorithm is used to backtrack the appropriate tags for each word in the sentence. I have implemented this project on python platform as my term project for Natural Language Processing Course. ",
-		"images":["images/pos/baseline.png","images/pos/bigramswithlowered.png","images/pos/trigramslowered.png"],
+		"descritpion": ["POS tag is assigned to each word in the sentence using hidden markov model. The Viterbi algorithm is used to backtrack the appropriate tags for each word in the sentence. I have implemented this project on python platform as my term project for Natural Language Processing Course. "],
 		"Url":"https://github.com/bandivyshnavi9/POS-Tagging"
 	},
 	{
 		"title": "Text Categorization with Support Vector Machines",
 		"dates": "Fall 2015",
-		"descritpion": "Text categorization of collection of documents by classifying them using Support vector machine algorithm. I have implemented this project on python platform as my term project for Machine Learning Course. ",
-		"images":["images/machine/first.png","images/machine/second.png","images/machine/third.png"],
+		"descritpion": ["Text categorization of collection of documents by classifying them using Support vector machine algorithm. I have implemented this project on python platform as my term project for Machine Learning Course. "],
 		"Url":"#"
 	},
 	{
 		"title": "Reversible Image Data-Hiding with Contrast Enhancement ",
 		"dates": "Spring 2016",
-		"descritpion": "Invertible data hiding is embedded into an image and the it processed with parallel image contrast enhancement in the image for collection of Data sets from UCSI-SIPI.I have implemented this project in Matlab platform as my term project for Multimedia Computing course.",
-		"images":["images/matlab/original.jpg","images/matlab/20.jpg"],
+		"descritpion": ["Invertible data hiding is embedded into an image and the it processed with parallel image contrast enhancement in the image for collection of Data sets from UCSI-SIPI.I have implemented this project in Matlab platform as my term project for Multimedia Computing course."],
 		"Url":"https://github.com/bandivyshnavi9/Contrast-Enhancment"
 	},
 	{
 		"title": "UNT Web Search Engine ",
 		"dates": "Spring 2016",
-		"descritpion": "A search engine was developed for UNT Domain. When user input a query in GUI interface then it will display the related URL’s for the query on the window. I have implemented this project on Java as my term project for Information Retrieval course. ",
-		"images":["images/engine/first.png","images/engine/second.png","images/engine/third.png"],
+		"descritpion": ["A search engine was developed for UNT Domain. When user input a query in GUI interface then it will display the related URL’s for the query on the window. I have implemented this project on Java as my term project for Information Retrieval course. "],
 		"Url":"https://github.com/bandivyshnavi9/SearchEngine"
 	},
 
 	{
 		"title": "Nearest ATM Mobile Navigation Through GPS System ",
 		"dates": "Spring 2015",
-		"descritpion": "It is based on android application. The user will be able to find nearest ATM within the location through GPS and navigates to the ATM location. The programming language used is Java and front-end is XML and IDE is Eclipse.",
-		"images":["images/atm/zero.jpg","images/atm/first.jpg","images/atm/second.jpg"],
+		"descritpion": ["It is based on android application. The user will be able to find nearest ATM within the location through GPS and navigates to the ATM location. The programming language used is Java and front-end is XML and IDE is Eclipse."],
 		"Url":"#"
 	},
 	{
 		"title": "Faculty Information Management System ",
 		"dates": "Fall 2014",
-		"descritpion": "It is based on web application that specifies the faculty details. In this Web based application every faculty gets registered through which faculty gets an authorized access by login id and password. The programming Frame work is .Net and the programming language used to develop the application is C# (C sharp).",
-		"images":["images/faculty/first.png","images/faculty/second.png","images/faculty/third.png"],
+		"descritpion": ["It is based on web application that specifies the faculty details. In this Web based application every faculty gets registered through which faculty gets an authorized access by login id and password. The programming Frame work is .Net and the programming language used to develop the application is C# (C sharp)."],
 		"Url": "#"
 	}
 	]
@@ -105,10 +98,9 @@ var education = {
 		"name" : "University of North Texas",
 		"location" : "Denton, Texas, USA",
 		"degree" : "Master's",
-		"dates" : "2015 - Current",
+		"dates" : " August 2015 - May 2017",
 		"url": "https://www.unt.edu/",
 		"majors" : "Computer Science"
-		
 	},
 	{
 		"name" : "VRSEC",
@@ -139,11 +131,18 @@ work.display = function (){
 	var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
 	var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs[job].location);
 	var formattedEmployerTitle = formattedEmployer + " " + formattedTitle;
-	var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].descritpion);
 	$(".work-entry:last").append(formattedEmployerTitle);
 	$(".work-entry:last").append(formattedDates);
 	$(".work-entry:last").append(formattedLocation);
-	$(".work-entry:last").append(formattedDescription);
+	$(".work-entry:last").append('<div id="description">');
+	if(work.jobs[job].descritpion.length > 0)
+	{
+		for(description in work.jobs[job].descritpion)
+		{
+			var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].descritpion[description]);
+			$(".work-entry:last").append(formattedDescription);
+		}
+	}
 }
 };
 
@@ -159,16 +158,13 @@ projects.display = function(){
 		var formattedDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
 		$(".project-entry:last").append(formattedDates);
 
-		var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].descritpion);
-		$(".project-entry:last").append(formattedDescription);
-
-		$(".project-entry:last").append('<div id="images">');
-		if(projects.projects[project].images.length > 0)
+		$(".project-entry:last").append('<div id="description">');
+		if(projects.projects[project].descritpion.length > 0)
 		{
-			for(image in projects.projects[project].images) {
-				var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[project].images[image]);
-				$(".project-entry:last").append(formattedImage);
-			}
+			for(description in projects.projects[project].descritpion){
+				var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].descritpion[description]);
+				$(".project-entry:last").append(formattedDescription);
+		}
 		}
 		$(".project-entry:last").append('</div>');
 
