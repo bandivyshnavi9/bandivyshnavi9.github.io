@@ -26,7 +26,7 @@ var work = {
 	"title" : "Software Developer Intern",
 	"location" :" Vijayawada,AP, INDIA ",
 	"dates" : "December 2014 - June 2015",
-	"descritpion": ["Designed the front-end to pages like Login, Signup, Search, Contact and About, using web technologies like HTML5, CSS3, JavaScript and jQuery.", " Implemented the entire front end using AJAX calls and Implemented MVC design patterns to make calls to the backend explicitly and rendering the data into web view asynchronously."]
+	"descritpion": ["Designed login and report the status of the work views.", " ​Developed REST AsyncTask APIs that makes both GET and POST calls to the Database to perform CRUD operations.​"]
 	}
 ]
 };
